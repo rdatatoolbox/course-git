@@ -1,0 +1,29 @@
+Package: course.git
+Type: Package
+Title: Introduction to git
+Version: 0.0.3
+Authors@R: c(
+    person(given   = "Stéphane",
+           family  = "Dray",
+           role    = c("aut", "cre"),
+           email   = "stephane.dray@univ-lyon1.fr",
+           comment = c(ORCID = "0000-0003-0153-1105")))
+Description: Online presentation 'Introduction to git'. This course is part of 
+    the workshop 'Data Toolbox for Reproducible Research in Ecology' 
+    co-organized by the FRB-CESAB (<https://www.fondationbiodiversite.fr/en/about-the-foundation/le-cesab/>)
+    and the GdR EcoStat (<https://sites.google.com/site/gdrecostat/>).
+URL: https://github.com/rdatatoolbox/course-git, https://rdatatoolbox/github.io/course-git
+BugReports: https://github.com/rdatatoolbox/course-git/issues
+License: CC BY 4.0
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+SystemRequirements: pandoc, Rtools (for Windows users)
+Imports:
+    devtools,
+    fontawesome,
+    knitr,
+    rmarkdown,
+    xaringan,
+    xaringanthemer
